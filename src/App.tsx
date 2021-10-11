@@ -11,15 +11,6 @@ function App() {
         <Route path="/download" component={DownloadPage} />
       </Switch>
     </Router>
-    // <Router>
-    //   <Navbar />
-    //   <Switch>
-    //     <Route path="/" exact component={Home} />
-    //     {/* <Route path="/about" component={About} />
-    //     <Route path="/signin" component={SignIn} />
-    //     <Route path="/sign-up" component={SignUp} /> */}
-    //   </Switch>
-    // </Router>
   );
 }
 
