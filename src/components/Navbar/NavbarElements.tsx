@@ -17,6 +17,7 @@ export const Nav = styled.nav<NavBarProps>`
   position: sticky;
   top: 0;
   z-index: 10;
+  transition: 0.4s all ease-in-out;
 
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
@@ -34,7 +35,7 @@ export const CompanyRefContainer = styled.div`
 
 export const LogoImgWrap = styled.div`
   align-self: center;
-  max-width: 35px;
+  max-width: 30px;
   height: 100%;
 `;
 

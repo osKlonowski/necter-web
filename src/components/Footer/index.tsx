@@ -14,16 +14,24 @@ import {
   SocialIconLink,
 } from "./FooterElements";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { animateScroll as scroll } from "react-scroll";
 
 const Footer = () => {
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     <FooterContainer>
       <FooterWrap>
         <FooterLinksContainer>
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>SAFETY</FooterLinkTitle>
+              <FooterLinkTitle>NECTER</FooterLinkTitle>
+              <FooterLink to="/#/">Contact</FooterLink>
+              <FooterLink to="/#/">Imprint</FooterLink>
               <FooterLink to="/#/">Frequently Asked Questions</FooterLink>
+              <FooterLink to="/download">Download</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
           <FooterLinksWrapper>
@@ -35,17 +43,12 @@ const Footer = () => {
               <FooterLink to="/#/">Terms & Conditions - DE</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
-          <FooterLinksWrapper>
-            <FooterLinkItems>
-              <FooterLinkTitle>COMPANY</FooterLinkTitle>
-              <FooterLink to="/#/">Contact</FooterLink>
-              <FooterLink to="/#/">Imprint</FooterLink>
-            </FooterLinkItems>
-          </FooterLinksWrapper>
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/">NECTER</SocialLogo>
+            <SocialLogo to="/" onClick={toggleHome}>
+              NECTER
+            </SocialLogo>
             <WebsiteRights>
               © Copyright TUNED BKT UG {new Date().getFullYear()} - All Rights
               Reserved

@@ -15,7 +15,7 @@ import { Button } from "../ButtonElement";
 const HeroSection = () => {
   return (
     <>
-      <HeroContainer height={window.innerHeight}>
+      <HeroContainer height={window.innerHeight} id="home">
         <HeroBg>
           <VideoBg autoPlay loop muted src={Video}></VideoBg>
         </HeroBg>
@@ -25,7 +25,7 @@ const HeroSection = () => {
             Meet new people nearby. First dating app without swiping.
           </HeroP>
           <HeroBtnWrapper>
-            <Button to="download">Download</Button>
+            <Button to="/download">Download</Button>
           </HeroBtnWrapper>
         </HeroContent>
         <ScrollEng>

@@ -6,7 +6,7 @@ export const FooterContainer = styled.footer`
 `;
 
 export const FooterWrap = styled.div`
-  padding: 22px 22px;
+  padding: 12px 22px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -61,7 +61,7 @@ export const FooterLink = styled(Link)`
   font-size: 14px;
 
   &:hover {
-    color: #01bf71;
+    color: #000000;
     transition: 0.3s ease-out;
   }
 `;
