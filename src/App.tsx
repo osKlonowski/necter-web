@@ -5,7 +5,7 @@ import DownloadPage from "./pages/download";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/download" component={DownloadPage} />
