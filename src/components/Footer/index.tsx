@@ -1,4 +1,3 @@
-import React from "react";
 import {
   FooterContainer,
   FooterWrap,
@@ -14,7 +13,7 @@ import {
   SocialIcons,
   SocialIconLink,
 } from "./FooterElements";
-import { FaFacebook } from "react-icons/fa";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -29,8 +28,7 @@ const Footer = () => {
           </FooterLinksWrapper>
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>COMPANY</FooterLinkTitle>
-              <FooterLink to="/#/">Contact</FooterLink>
+              <FooterLinkTitle>LEGAL</FooterLinkTitle>
               <FooterLink to="/#/">Privacy Policy - EN</FooterLink>
               <FooterLink to="/#/">Terms & Conditions - EN</FooterLink>
               <FooterLink to="/#/">Privacy Policy - DE</FooterLink>
@@ -39,9 +37,9 @@ const Footer = () => {
           </FooterLinksWrapper>
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>SOCIAL MEDIA</FooterLinkTitle>
-              <FooterLink to="/#/">Instagram</FooterLink>
-              <FooterLink to="/#/">Facebook</FooterLink>
+              <FooterLinkTitle>COMPANY</FooterLinkTitle>
+              <FooterLink to="/#/">Contact</FooterLink>
+              <FooterLink to="/#/">Imprint</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
@@ -53,8 +51,19 @@ const Footer = () => {
               Reserved
             </WebsiteRights>
             <SocialIcons>
-              <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+              <SocialIconLink
+                href="https://www.facebook.com/necterapp"
+                target="_blank"
+                aria-label="Facebook"
+              >
                 <FaFacebook />
+              </SocialIconLink>
+              <SocialIconLink
+                href="https://www.instagram.com/necter/"
+                target="_blank"
+                aria-label="Instagram"
+              >
+                <FaInstagram />
               </SocialIconLink>
             </SocialIcons>
           </SocialMediaWrap>

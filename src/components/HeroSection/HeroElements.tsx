@@ -2,13 +2,17 @@ import styled from "styled-components";
 import { MdArrowForward, MdKeyboardArrowRight } from "react-icons/md";
 import { FaArrowDown } from "react-icons/fa";
 
-export const HeroContainer = styled.div`
+interface HeroContainerProps {
+  height: number;
+}
+
+export const HeroContainer = styled.div<HeroContainerProps>`
   background: #0c0c0c;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 800px;
+  height: ${({ height }) => `${height}px`};
   position: relative;
   z-index: 1;
 
@@ -69,6 +73,7 @@ export const HeroContent = styled.div`
   padding: 8px 24px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 `;
 
