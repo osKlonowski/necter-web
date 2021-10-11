@@ -9,7 +9,7 @@ import {
   ScrollEng,
   SpecialArrowDown,
 } from "./HeroElements";
-import Video from "../../videos/hero-video.mp4";
+import Video from "../../videos/couple-dancing.mp4";
 import { Button } from "../ButtonElement";
 
 const HeroSection = () => {
@@ -21,9 +21,7 @@ const HeroSection = () => {
         </HeroBg>
         <HeroContent>
           <HeroH1>The OFFLINE dating app.</HeroH1>
-          <HeroP>
-            Meet new people nearby. First dating app without swiping.
-          </HeroP>
+          <HeroP>Tired of swiping? Meet people right here, right now.</HeroP>
           <HeroBtnWrapper>
             <Button to="/download">Download</Button>
           </HeroBtnWrapper>
