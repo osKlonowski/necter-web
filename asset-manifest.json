@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/necter-web/static/css/main.f56181ad.chunk.css",
+    "main.js": "/necter-web/static/js/main.8540b27c.chunk.js",
+    "main.js.map": "/necter-web/static/js/main.8540b27c.chunk.js.map",
+    "runtime-main.js": "/necter-web/static/js/runtime-main.4a069387.js",
+    "runtime-main.js.map": "/necter-web/static/js/runtime-main.4a069387.js.map",
+    "static/js/2.18ba771e.chunk.js": "/necter-web/static/js/2.18ba771e.chunk.js",
+    "static/js/2.18ba771e.chunk.js.map": "/necter-web/static/js/2.18ba771e.chunk.js.map",
+    "index.html": "/necter-web/index.html",
+    "static/css/main.f56181ad.chunk.css.map": "/necter-web/static/css/main.f56181ad.chunk.css.map",
+    "static/js/2.18ba771e.chunk.js.LICENSE.txt": "/necter-web/static/js/2.18ba771e.chunk.js.LICENSE.txt",
+    "static/media/around-the-world.svg": "/necter-web/static/media/around-the-world.835fe1bf.svg",
+    "static/media/connecting-teams.svg": "/necter-web/static/media/connecting-teams.be166e55.svg",
+    "static/media/couple-dancing.19bb8ee4.mp4": "/necter-web/static/media/couple-dancing.19bb8ee4.mp4",
+    "static/media/home_screen_mockup.png": "/necter-web/static/media/home_screen_mockup.9c5b6534.png",
+    "static/media/logo_white_transparent.d73f7c90.png": "/necter-web/static/media/logo_white_transparent.d73f7c90.png",
+    "static/media/online-dating.svg": "/necter-web/static/media/online-dating.1aebd8cc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a069387.js",
+    "static/js/2.18ba771e.chunk.js",
+    "static/css/main.f56181ad.chunk.css",
+    "static/js/main.8540b27c.chunk.js"
+  ]
+}
