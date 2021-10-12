@@ -9,7 +9,7 @@ export const homeObjOne = {
     "All of the best features of online and offline dating. All of the best features of online and offline dating.",
   buttonLable: "Get Started",
   imgStart: false,
-  img: require("../../images/online-dating.svg").default,
+  img: require("../../assets/mockup-double.png").default,
   alt: "Car",
   dark: false,
   primary: true,
@@ -42,7 +42,7 @@ export const homeObjThree = {
   topLine: "Location Features",
   headline: "Connect with people nearby",
   description:
-    "Necter requires access to your current location in order to connect you with the people nearby. Your location data is never saved or shared with anyone. We only keep track of your current whereabouts to provide you with relevant connects.",
+    "Necter uses location access in order to connect you with the people nearby. Your location data is never saved or shared with anyone. We only keep track of your current whereabouts to provide you with relevant connects.",
   buttonLable: "Get Started",
   imgStart: false,
   img: require("../../images/around-the-world.svg").default,
