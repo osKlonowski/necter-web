@@ -17,7 +17,14 @@ const HeroSection = () => {
     <>
       <HeroContainer height={window.innerHeight} id="home">
         <HeroBg>
-          <VideoBg autoPlay loop muted src={Video}></VideoBg>
+          <VideoBg
+            autoPlay
+            loop
+            muted
+            playsInline={true}
+            src={Video}
+            typeof={"video/mp4"}
+          ></VideoBg>
         </HeroBg>
         <HeroContent>
           <HeroH1>The OFFLINE dating app.</HeroH1>
