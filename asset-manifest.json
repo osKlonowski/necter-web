@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/necter-web/static/css/main.f56181ad.chunk.css",
-    "main.js": "/necter-web/static/js/main.1d85ecc3.chunk.js",
-    "main.js.map": "/necter-web/static/js/main.1d85ecc3.chunk.js.map",
+    "main.js": "/necter-web/static/js/main.8b8248b9.chunk.js",
+    "main.js.map": "/necter-web/static/js/main.8b8248b9.chunk.js.map",
     "runtime-main.js": "/necter-web/static/js/runtime-main.a3a50835.js",
     "runtime-main.js.map": "/necter-web/static/js/runtime-main.a3a50835.js.map",
-    "static/js/2.3de13508.chunk.js": "/necter-web/static/js/2.3de13508.chunk.js",
-    "static/js/2.3de13508.chunk.js.map": "/necter-web/static/js/2.3de13508.chunk.js.map",
+    "static/js/2.b7cc7b25.chunk.js": "/necter-web/static/js/2.b7cc7b25.chunk.js",
+    "static/js/2.b7cc7b25.chunk.js.map": "/necter-web/static/js/2.b7cc7b25.chunk.js.map",
     "index.html": "/necter-web/index.html",
     "static/css/main.f56181ad.chunk.css.map": "/necter-web/static/css/main.f56181ad.chunk.css.map",
-    "static/js/2.3de13508.chunk.js.LICENSE.txt": "/necter-web/static/js/2.3de13508.chunk.js.LICENSE.txt",
+    "static/js/2.b7cc7b25.chunk.js.LICENSE.txt": "/necter-web/static/js/2.b7cc7b25.chunk.js.LICENSE.txt",
     "static/media/around-the-world.svg": "/necter-web/static/media/around-the-world.835fe1bf.svg",
     "static/media/connecting-teams.svg": "/necter-web/static/media/connecting-teams.be166e55.svg",
     "static/media/couple-dancing.f8fc1775.mp4": "/necter-web/static/media/couple-dancing.f8fc1775.mp4",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a3a50835.js",
-    "static/js/2.3de13508.chunk.js",
+    "static/js/2.b7cc7b25.chunk.js",
     "static/css/main.f56181ad.chunk.css",
-    "static/js/main.1d85ecc3.chunk.js"
+    "static/js/main.8b8248b9.chunk.js"
   ]
 }
