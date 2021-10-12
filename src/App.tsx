@@ -2,6 +2,7 @@ import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages";
 import DownloadPage from "./pages/download";
+import PrivacyPolicyPage from "./pages/privacy_policy";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/download" component={DownloadPage} />
+        <Route path="/privacy-policy" component={PrivacyPolicyPage} />
       </Switch>
     </Router>
   );
