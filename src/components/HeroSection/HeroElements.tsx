@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { MdArrowForward, MdKeyboardArrowRight } from "react-icons/md";
 import { FaArrowDown } from "react-icons/fa";
+import { Link as LinkS } from "react-scroll";
 
 interface HeroContainerProps {
   height: number;
@@ -40,7 +41,10 @@ export const SpecialArrowDown = styled(FaArrowDown)`
   width: 20px;
 `;
 
-export const ScrollEng = styled.div`
+export const ScrollEng = styled(LinkS)`
+  z-index: 4;
+  text-decoration: none;
+  cursor: pointer;
   position: absolute;
   bottom: 10px;
   align-self: center;

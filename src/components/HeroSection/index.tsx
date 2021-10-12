@@ -26,7 +26,13 @@ const HeroSection = () => {
             <Button to="/download">Download</Button>
           </HeroBtnWrapper>
         </HeroContent>
-        <ScrollEng>
+        <ScrollEng
+          to="about"
+          smooth={true}
+          duration={500}
+          spy={true}
+          offset={-80}
+        >
           <SpecialArrowDown />
         </ScrollEng>
       </HeroContainer>
