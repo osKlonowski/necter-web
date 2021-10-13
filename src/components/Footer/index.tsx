@@ -28,7 +28,7 @@ const Footer = () => {
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>NECTER</FooterLinkTitle>
-              <FooterLink to="/#/">Contact</FooterLink>
+              <FooterLink to="/contact">Contact</FooterLink>
               <FooterLink to="/#/">Imprint</FooterLink>
               <FooterLink to="/download">Download</FooterLink>
             </FooterLinkItems>

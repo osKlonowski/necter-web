@@ -30,7 +30,7 @@ function PrivacyPolicy({ pdfFile }: { pdfFile: String }) {
         <h1>Prev</h1>
       </PageFlipperBtn>
       <Document file={pdfFile} onLoadSuccess={onDocumentLoadSuccess}>
-        <Page pageNumber={pageNumber} height={window.innerHeight - 80} />
+        <Page pageNumber={pageNumber} height={window.innerHeight - 150} />
       </Document>
       <PageFlipperBtn onClick={nextPage}>
         <h1>Next</h1>

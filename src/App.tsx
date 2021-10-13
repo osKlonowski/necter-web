@@ -6,6 +6,7 @@ import PrivacyPolicyPage from "./pages/privacy_policy";
 import TermsConditionsPage from "./pages/terms_conditions";
 import PrivacyPolicyDePage from "./pages/privacy_policy_de";
 import TermsConditionsDePage from "./pages/terms_conditions_de";
+import ContactPage from "./pages/contact";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/download" component={DownloadPage} />
+        <Route path="/contact" component={ContactPage} />
         <Route path="/privacy-policy" component={PrivacyPolicyPage} />
         <Route path="/privacy-policy-de" component={PrivacyPolicyDePage} />
         <Route path="/terms-conditions" component={TermsConditionsPage} />
