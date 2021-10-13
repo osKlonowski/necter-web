@@ -10,6 +10,10 @@ export const PdfPageWrapper = styled.div`
   align-items: center;
   padding-top: 80px;
   z-index: 1;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 export const PageFlipperBtn = styled.div`

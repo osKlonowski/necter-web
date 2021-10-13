@@ -30,7 +30,6 @@ const Footer = () => {
               <FooterLinkTitle>NECTER</FooterLinkTitle>
               <FooterLink to="/#/">Contact</FooterLink>
               <FooterLink to="/#/">Imprint</FooterLink>
-              <FooterLink to="/#/">Frequently Asked Questions</FooterLink>
               <FooterLink to="/download">Download</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
@@ -38,9 +37,15 @@ const Footer = () => {
             <FooterLinkItems>
               <FooterLinkTitle>LEGAL</FooterLinkTitle>
               <FooterLink to="/privacy-policy">Privacy Policy - EN</FooterLink>
-              <FooterLink to="/#/">Terms & Conditions - EN</FooterLink>
-              <FooterLink to="/#/">Privacy Policy - DE</FooterLink>
-              <FooterLink to="/#/">Terms & Conditions - DE</FooterLink>
+              <FooterLink to="/terms-conditions">
+                Terms & Conditions - EN
+              </FooterLink>
+              <FooterLink to="/privacy-policy-de">
+                Privacy Policy - DE
+              </FooterLink>
+              <FooterLink to="/terms-conditions-de">
+                Terms & Conditions - DE
+              </FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>

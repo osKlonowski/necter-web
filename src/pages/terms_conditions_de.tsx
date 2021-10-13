@@ -1,12 +1,12 @@
-import PrivacyPolicy from "../components/PrivacyPolicy";
-import Footer from "../components/Footer";
-import ScrollToTop from "../components/ScrollToTop";
-import Navbar from "../components/Navbar";
 import { useState } from "react";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+import ScrollToTop from "../components/ScrollToTop";
 import Sidebar from "../components/Sidebar";
-import privacy_policy_file from "../assets/pdf/en_privacy_policy.pdf";
+import TermsConditions from "../components/TermsConditions";
+import terms_conditions_file from "../assets/pdf/de_terms_and_conditions.pdf";
 
-const PrivacyPolicyPage = () => {
+const TermsConditionsDePage = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleSidebar = () => {
@@ -17,10 +17,10 @@ const PrivacyPolicyPage = () => {
       <ScrollToTop />
       <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
       <Navbar toggleSidebar={toggleSidebar} />
-      <PrivacyPolicy pdfFile={privacy_policy_file} />
+      <TermsConditions pdfFile={terms_conditions_file} />
       <Footer />
     </>
   );
 };
 
-export default PrivacyPolicyPage;
+export default TermsConditionsDePage;

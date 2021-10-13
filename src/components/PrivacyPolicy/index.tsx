@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
-import privacy_policy_file from "../../assets/pdf/en_privacy_policy.pdf";
 import { PageFlipperBtn, PdfPageWrapper } from "./PrivacyPolicyElements";
 
-function PrivacyPolicy() {
+function PrivacyPolicy({ pdfFile }: { pdfFile: String }) {
   const [numPages, setNumPages] = useState(0);
   const [pageNumber, setPageNumber] = useState(1);
 
@@ -30,10 +29,7 @@ function PrivacyPolicy() {
       <PageFlipperBtn onClick={prevPage}>
         <h1>Prev</h1>
       </PageFlipperBtn>
-      <Document
-        file={privacy_policy_file}
-        onLoadSuccess={onDocumentLoadSuccess}
-      >
+      <Document file={pdfFile} onLoadSuccess={onDocumentLoadSuccess}>
         <Page pageNumber={pageNumber} height={window.innerHeight - 80} />
       </Document>
       <PageFlipperBtn onClick={nextPage}>
