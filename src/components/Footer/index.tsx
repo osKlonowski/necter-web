@@ -29,7 +29,7 @@ const Footer = () => {
             <FooterLinkItems>
               <FooterLinkTitle>NECTER</FooterLinkTitle>
               <FooterLink to="/contact">Contact</FooterLink>
-              <FooterLink to="/#/">Imprint</FooterLink>
+              <FooterLink to="/imprint">Imprint</FooterLink>
               <FooterLink to="/download">Download</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
@@ -55,8 +55,8 @@ const Footer = () => {
               NECTER
             </SocialLogo>
             <WebsiteRights>
-              © Copyright TUNED BKT UG {new Date().getFullYear()} - All Rights
-              Reserved
+              © Copyright TUNED BKT UG (haftungsbeschränkt) {"2019-"}
+              {new Date().getFullYear()} - All Rights Reserved
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink

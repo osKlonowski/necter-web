@@ -44,6 +44,7 @@ export const InfoRow = styled.div<InfoRowProps>`
 
 export const Column1 = styled.div`
   margin-bottom: 15px;
+  justify-self: center;
   padding: 0 15px;
   grid-area: col1;
 `;
@@ -56,6 +57,7 @@ export const Column2 = styled.div`
 
 export const TextWrapper = styled.div`
   max-width: 540px;
+  text-align: center;
   padding-top: 0;
   padding-bottom: 60px;
 `;
@@ -84,7 +86,7 @@ export const Heading = styled.h1`
 
 export const Subtitle = styled.p`
   max-width: 450px;
-  margin-bottom: 35px;
+  margin-bottom: 10px;
   font-size: 18px;
   line-height: 24px;
   color: #010606;

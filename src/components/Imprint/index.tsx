@@ -9,9 +9,9 @@ import {
   InfoWrapper,
   Subtitle,
   TextWrapper,
-} from "./ContactElements";
+} from "../Contact/ContactElements";
 
-const Contact = () => {
+const Imprint = () => {
   return (
     <>
       <InfoContainer>
@@ -19,14 +19,24 @@ const Contact = () => {
           <InfoRow imgStart={true}>
             <Column1>
               <TextWrapper>
-                <Heading>Contact</Heading>
+                <Heading>Imprint</Heading>
                 <Subtitle>
-                  business@necter.io
+                  TUNED BKT UG (haftungsbeschränkt)
                   <br />
+                  Grootmoorgraben 4<br />
+                  22175 Hamburg
                   <br />
-                  +49 898 234 827
+                  Germany
                   <br />
-                  +48 887 820 010
+                  Geschaftsfuhrer:
+                  <br />
+                  Joshua Buse
+                  <br />
+                  Amtsgericht Hamburg
+                  <br />
+                  Register-Nummer:
+                  <br />
+                  HRB 155122
                   <br />
                 </Subtitle>
               </TextWrapper>
@@ -34,8 +44,8 @@ const Contact = () => {
             <Column2>
               <ImgWrap>
                 <Img
-                  src={require("../../images/contact-us-white.svg").default}
-                  alt={"contact-us-pic"}
+                  src={require("../../images/team.svg").default}
+                  alt={"imprint-pic"}
                 />
               </ImgWrap>
             </Column2>
@@ -46,4 +56,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Imprint;
