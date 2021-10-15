@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/necter-web/static/css/main.f56181ad.chunk.css",
-    "main.js": "/necter-web/static/js/main.26e398c7.chunk.js",
-    "main.js.map": "/necter-web/static/js/main.26e398c7.chunk.js.map",
+    "main.js": "/necter-web/static/js/main.79b8ac8e.chunk.js",
+    "main.js.map": "/necter-web/static/js/main.79b8ac8e.chunk.js.map",
     "runtime-main.js": "/necter-web/static/js/runtime-main.a3a50835.js",
     "runtime-main.js.map": "/necter-web/static/js/runtime-main.a3a50835.js.map",
     "static/js/2.db62d1f2.chunk.js": "/necter-web/static/js/2.db62d1f2.chunk.js",
@@ -20,8 +20,8 @@
     "static/media/de_terms_and_conditions.5633e8f6.pdf": "/necter-web/static/media/de_terms_and_conditions.5633e8f6.pdf",
     "static/media/en_privacy_policy.4b9d70fc.pdf": "/necter-web/static/media/en_privacy_policy.4b9d70fc.pdf",
     "static/media/en_terms_and_conditions.1ca2615e.pdf": "/necter-web/static/media/en_terms_and_conditions.1ca2615e.pdf",
-    "static/media/howitworks-1.png": "/necter-web/static/media/howitworks-1.30230c21.png",
-    "static/media/howitworks-2.png": "/necter-web/static/media/howitworks-2.6481cd0b.png",
+    "static/media/howitworks-1.png": "/necter-web/static/media/howitworks-1.e026faf6.png",
+    "static/media/howitworks-2.png": "/necter-web/static/media/howitworks-2.eebda284.png",
     "static/media/logo_white_transparent.d73f7c90.png": "/necter-web/static/media/logo_white_transparent.d73f7c90.png",
     "static/media/mockup-double.png": "/necter-web/static/media/mockup-double.cf964c96.png",
     "static/media/team.svg": "/necter-web/static/media/team.143fd829.svg"
@@ -30,6 +30,6 @@
     "static/js/runtime-main.a3a50835.js",
     "static/js/2.db62d1f2.chunk.js",
     "static/css/main.f56181ad.chunk.css",
-    "static/js/main.26e398c7.chunk.js"
+    "static/js/main.79b8ac8e.chunk.js"
   ]
 }
