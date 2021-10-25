@@ -27,10 +27,10 @@ const Sidebar = ({
             About
           </SidebarLink>
           <SidebarLink to="discover" onClick={toggleSidebar}>
-            Discover
+            Use Case
           </SidebarLink>
           <SidebarLink to="services" onClick={toggleSidebar}>
-            Services
+            How it Works
           </SidebarLink>
         </SidebarMenu>
       </SidebarWrapper>

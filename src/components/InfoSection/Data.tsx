@@ -22,7 +22,7 @@ export const homeObjTwo = {
   lightText: true,
   lightTextDesc: true,
   topLine: "Offline Dating",
-  headline: "Meet people with matching interests",
+  headline: "Use Cases!!!",
   description:
     "All of the best features of online and offline dating. All of the best features of online and offline dating.",
   buttonLable: "Get Started",
