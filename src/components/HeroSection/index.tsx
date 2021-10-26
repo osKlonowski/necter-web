@@ -9,7 +9,7 @@ import {
   ScrollEng,
   SpecialArrowDown,
 } from "./HeroElements";
-import Video from "../../videos/couple-dancing.mp4";
+import Video from "../../videos/necter-promo.mp4";
 import { Button } from "../ButtonElement";
 
 const HeroSection = () => {
@@ -26,6 +26,7 @@ const HeroSection = () => {
             typeof={"video/mp4"}
           ></VideoBg>
         </HeroBg>
+        {/*
         <HeroContent>
           <HeroH1>The OFFLINE dating app.</HeroH1>
           <HeroP>Tired of swiping? Meet people right here, right now.</HeroP>
@@ -33,6 +34,7 @@ const HeroSection = () => {
             <Button to="/download">Download</Button>
           </HeroBtnWrapper>
         </HeroContent>
+          */}
         <ScrollEng
           to="about"
           smooth={true}
