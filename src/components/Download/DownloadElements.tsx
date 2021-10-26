@@ -22,7 +22,7 @@ export const PageWrapper = styled.div<ContainerSizeProps>`
   z-index: 1;
   height: ${({ height }) => `${height}px`};
   width: 100%;
-  max-width: 1100px;
+  max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
   justify-content: center;
@@ -40,7 +40,7 @@ export const DownloadRow = styled.div<DownloadRowProps>`
   grid-template-areas: ${({ imgStart }) =>
     imgStart ? `'col2 col1'` : `'col1 col2'`};
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 850px) {
     grid-template-areas: ${({ imgStart }) =>
       imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
   }
@@ -54,10 +54,14 @@ export const Column1 = styled.div`
 
 export const Column2 = styled.div`
   margin-bottom: 15px;
+  margin-right: 80px;
   padding: 0 15px;
   grid-area: col2;
   display: flex;
   justify-content: center;
+  @media screen and (max-width: 768px) {
+    margin-right: 0px;
+  }
 `;
 
 export const TextWrapper = styled.div`

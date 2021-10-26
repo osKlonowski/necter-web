@@ -54,7 +54,7 @@ const Download = () => {
             <Column2>
               <ImgWrap>
                 <Img
-                  src={require("../../assets/home_screen_mockup.png").default}
+                  src={require("../../assets/mockup-double.png").default}
                   alt={"necter-app-mockup"}
                   height={window.innerHeight}
                 />

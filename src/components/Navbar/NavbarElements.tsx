@@ -69,11 +69,8 @@ export const MobileIcon = styled.div`
   display: none;
 
   @media screen and (max-width: 768px) {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-100%, 60%);
+    display: flex;
+    align-items: center;
     font-size: 1.8rem;
     cursor: pointer;
     color: #fff;
@@ -126,13 +123,14 @@ export const NavBtn = styled.nav`
 `;
 
 export const NavBtnLink = styled(LinkR)`
-  border-radius: 12px;
+  border-radius: 40px;
   background: #00ffbe;
   white-space: nowrap;
   padding: 10px 22px;
   color: #000000;
   font-size: 16px;
   outline: none;
+  font-weight: 700;
   text-decoration: none;
   border: none;
   cursor: pointer;

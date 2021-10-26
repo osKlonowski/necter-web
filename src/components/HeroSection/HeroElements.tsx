@@ -1,13 +1,14 @@
 import styled from "styled-components";
 import { MdArrowForward, MdKeyboardArrowRight } from "react-icons/md";
 import { FaArrowDown } from "react-icons/fa";
+import { Link as LinkS } from "react-scroll";
 
 interface HeroContainerProps {
   height: number;
 }
 
 export const HeroContainer = styled.div<HeroContainerProps>`
-  background: #0c0c0c;
+  background: #9ca7ec;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,12 +24,6 @@ export const HeroContainer = styled.div<HeroContainerProps>`
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0.2) 0%,
-        rgba(0, 0, 0, 0.6) 100%
-      ),
-      linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
     z-index: 2;
   }
 `;
@@ -40,7 +35,10 @@ export const SpecialArrowDown = styled(FaArrowDown)`
   width: 20px;
 `;
 
-export const ScrollEng = styled.div`
+export const ScrollEng = styled(LinkS)`
+  z-index: 4;
+  text-decoration: none;
+  cursor: pointer;
   position: absolute;
   bottom: 10px;
   align-self: center;
@@ -63,7 +61,12 @@ export const VideoBg = styled.video`
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  background: #232a34;
+  background: #9ca7ec;
+
+  @media screen and (max-width: 768px) {
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
 `;
 
 export const HeroContent = styled.div`

@@ -6,10 +6,10 @@ export const homeObjOne = {
   topLine: "Offline Dating",
   headline: "The easiest way to say Hi!",
   description:
-    "All of the best features of online and offline dating. All of the best features of online and offline dating.",
+    "To blur the line between online & offline dating. A social networking platform for the moment. For everyone that wants to date and be more social in real life. An app that spontaneously connects you with the people nearby.",
   buttonLable: "Get Started",
   imgStart: false,
-  img: require("../../images/online-dating.svg").default,
+  img: require("../../assets/mockup-double.png").default,
   alt: "Car",
   dark: false,
   primary: true,
@@ -21,8 +21,8 @@ export const homeObjTwo = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "Offline Dating",
-  headline: "Meet people with matching interests",
+  topLine: "Right Here, Right Now",
+  headline: "Use Cases!!!",
   description:
     "All of the best features of online and offline dating. All of the best features of online and offline dating.",
   buttonLable: "Get Started",
@@ -42,7 +42,7 @@ export const homeObjThree = {
   topLine: "Location Features",
   headline: "Connect with people nearby",
   description:
-    "Necter requires access to your current location in order to connect you with the people nearby. Your location data is never saved or shared with anyone. We only keep track of your current whereabouts to provide you with relevant connects.",
+    "Necter uses location access in order to connect you with the people nearby. Your location data is never saved or shared with anyone. We only keep track of your current whereabouts to provide you with relevant connects.",
   buttonLable: "Get Started",
   imgStart: false,
   img: require("../../images/around-the-world.svg").default,
