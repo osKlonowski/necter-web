@@ -24,13 +24,13 @@ const Sidebar = ({
       <SidebarWrapper>
         <SidebarMenu>
           <SidebarLink to="about" onClick={toggleSidebar}>
-            About
+            What
           </SidebarLink>
           <SidebarLink to="discover" onClick={toggleSidebar}>
-            Use Case
+            Why
           </SidebarLink>
           <SidebarLink to="services" onClick={toggleSidebar}>
-            How it Works
+            How
           </SidebarLink>
         </SidebarMenu>
       </SidebarWrapper>

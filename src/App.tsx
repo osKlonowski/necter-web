@@ -8,10 +8,12 @@ import PrivacyPolicyDePage from "./pages/privacy_policy_de";
 import TermsConditionsDePage from "./pages/terms_conditions_de";
 import ContactPage from "./pages/contact";
 import ImprintPage from "./pages/imprint";
+import { HashRouter } from "react-router-dom";
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL} hashType={"slash"}>
+      {" "}
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/download" component={DownloadPage} />
@@ -22,7 +24,7 @@ function App() {
         <Route path="/terms-conditions" component={TermsConditionsPage} />
         <Route path="/terms-conditions-de" component={TermsConditionsDePage} />
       </Switch>
-    </Router>
+    </HashRouter>
   );
 }
 

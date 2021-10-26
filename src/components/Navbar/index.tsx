@@ -66,7 +66,7 @@ const Navbar = ({ toggleSidebar }: { toggleSidebar: any }) => {
                 offset={-80}
                 activeClass="active"
               >
-                About
+                What
               </NavLinks>
             </NavItem>
             <NavItem>
@@ -78,7 +78,7 @@ const Navbar = ({ toggleSidebar }: { toggleSidebar: any }) => {
                 offset={-80}
                 activeClass="active"
               >
-                Use Case
+                Why
               </NavLinks>
             </NavItem>
             <NavItem>
@@ -90,7 +90,7 @@ const Navbar = ({ toggleSidebar }: { toggleSidebar: any }) => {
                 offset={-80}
                 activeClass="active"
               >
-                How It Works
+                How
               </NavLinks>
             </NavItem>
           </NavMenu>
