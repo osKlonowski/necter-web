@@ -19,7 +19,6 @@ const HeroSection = () => {
         <HeroBg>
           <VideoBg
             autoPlay
-            loop
             muted
             playsInline={true}
             src={Video}

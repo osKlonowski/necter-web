@@ -8,7 +8,7 @@ interface HeroContainerProps {
 }
 
 export const HeroContainer = styled.div<HeroContainerProps>`
-  background: #0c0c0c;
+  background: #9ca7ec;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,7 +61,12 @@ export const VideoBg = styled.video`
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  background: #232a34;
+  background: #9ca7ec;
+
+  @media screen and (max-width: 768px) {
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
 `;
 
 export const HeroContent = styled.div`
