@@ -6,7 +6,7 @@ export const homeObjOne = {
   topLine: "Offline Dating",
   headline: "The easiest way to say Hi!",
   description:
-    "All of the best features of online and offline dating. All of the best features of online and offline dating.",
+    "To blur the line between online & offline dating. A social networking platform for the moment. For everyone that wants to date and be more social in real life. An app that spontaneously connects you with the people nearby.",
   buttonLable: "Get Started",
   imgStart: false,
   img: require("../../assets/mockup-double.png").default,
@@ -21,7 +21,7 @@ export const homeObjTwo = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "Offline Dating",
+  topLine: "Right Here, Right Now",
   headline: "Use Cases!!!",
   description:
     "All of the best features of online and offline dating. All of the best features of online and offline dating.",
