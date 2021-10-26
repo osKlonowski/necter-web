@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/necter-web/static/css/main.f56181ad.chunk.css",
-    "main.js": "/necter-web/static/js/main.42d5ba1f.chunk.js",
-    "main.js.map": "/necter-web/static/js/main.42d5ba1f.chunk.js.map",
+    "main.js": "/necter-web/static/js/main.1c6e0b54.chunk.js",
+    "main.js.map": "/necter-web/static/js/main.1c6e0b54.chunk.js.map",
     "runtime-main.js": "/necter-web/static/js/runtime-main.a3a50835.js",
     "runtime-main.js.map": "/necter-web/static/js/runtime-main.a3a50835.js.map",
     "static/js/2.292167b3.chunk.js": "/necter-web/static/js/2.292167b3.chunk.js",
@@ -30,6 +30,6 @@
     "static/js/runtime-main.a3a50835.js",
     "static/js/2.292167b3.chunk.js",
     "static/css/main.f56181ad.chunk.css",
-    "static/js/main.42d5ba1f.chunk.js"
+    "static/js/main.1c6e0b54.chunk.js"
   ]
 }
