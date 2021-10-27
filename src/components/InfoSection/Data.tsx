@@ -27,7 +27,7 @@ export const homeObjTwo = {
     "We think dating apps are ok, but bringing people together is what it's all about. Necter is designed for the moment! This is not for couch potatoes. Go out and connect with the people nearby. (+ Friendship Mode 😉)",
   buttonLable: "Get Started",
   imgStart: true,
-  img: require("../../images/connecting-teams.svg").default,
+  img: require("../../images/why.svg").default,
   alt: "Car",
   dark: false,
   primary: true,
