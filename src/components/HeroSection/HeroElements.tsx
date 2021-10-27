@@ -63,7 +63,7 @@ export const VideoBg = styled.video`
   object-fit: cover;
   background: #9ca7ec;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 850px) {
     -o-object-fit: contain;
     object-fit: contain;
   }

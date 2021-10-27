@@ -13,7 +13,6 @@ import { HashRouter } from "react-router-dom";
 function App() {
   return (
     <HashRouter basename={process.env.PUBLIC_URL} hashType={"slash"}>
-      {" "}
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/download" component={DownloadPage} />
