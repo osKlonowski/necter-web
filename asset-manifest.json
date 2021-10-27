@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.f56181ad.chunk.css",
-    "main.js": "/static/js/main.bb1cdbf8.chunk.js",
-    "main.js.map": "/static/js/main.bb1cdbf8.chunk.js.map",
+    "main.js": "/static/js/main.c821ac91.chunk.js",
+    "main.js.map": "/static/js/main.c821ac91.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.36f418f7.js",
     "runtime-main.js.map": "/static/js/runtime-main.36f418f7.js.map",
     "static/js/2.6865c922.chunk.js": "/static/js/2.6865c922.chunk.js",
@@ -24,12 +24,12 @@
     "static/media/mockup-double.png": "/static/media/mockup-double.cf964c96.png",
     "static/media/necter-promo.21387486.mp4": "/static/media/necter-promo.21387486.mp4",
     "static/media/team.svg": "/static/media/team.143fd829.svg",
-    "static/media/why-illustration.svg": "/static/media/why-illustration.d0d460c1.svg"
+    "static/media/why.svg": "/static/media/why.d0d460c1.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.36f418f7.js",
     "static/js/2.6865c922.chunk.js",
     "static/css/main.f56181ad.chunk.css",
-    "static/js/main.bb1cdbf8.chunk.js"
+    "static/js/main.c821ac91.chunk.js"
   ]
 }
