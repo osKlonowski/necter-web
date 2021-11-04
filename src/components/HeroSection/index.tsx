@@ -1,16 +1,11 @@
 import {
   HeroBg,
-  HeroBtnWrapper,
   HeroContainer,
-  HeroContent,
-  HeroH1,
-  HeroP,
   VideoBg,
   ScrollEng,
   SpecialArrowDown,
 } from "./HeroElements";
 import Video from "../../videos/necter-promo.mp4";
-import { Button } from "../ButtonElement";
 
 const HeroSection = () => {
   return (
