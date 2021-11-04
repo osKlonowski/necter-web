@@ -13,24 +13,62 @@ import { Input, PageWrapper, Select, SubmitButton } from "./RegisterElements";
 //5. Open time - Close time (optional)
 
 type MyProps = {};
-type MyState = { value: string };
+type MyState = {
+  name: string;
+  nameError: string;
+  category: string;
+  categoryError: string;
+  capacity: 0;
+  capacityError: string;
+  lat: string;
+  lng: string;
+  latError: string;
+  lngError: string;
+};
 class Register extends React.Component<MyProps, MyState> {
   constructor(props: MyProps) {
     super(props);
     this.state = {
-      value: "some value",
+      name: "",
+      nameError: "",
+      category: "",
+      categoryError: "",
+      capacity: 0,
+      capacityError: "",
+      lat: "",
+      lng: "",
+      latError: "",
+      lngError: "",
     };
 
-    this.handleChange = this.handleChange.bind(this);
+    this.handleNameChange = this.handleNameChange.bind(this);
+    this.handleCategoryChange = this.handleCategoryChange.bind(this);
+    this.handleCapacityChange = this.handleCapacityChange.bind(this);
+    this.handleLatitudeChange = this.handleLatitudeChange.bind(this);
+    this.handleLongitudeChange = this.handleLongitudeChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  handleChange(event: any) {
-    this.setState({ value: event.target.value });
+  handleNameChange(event: any) {
+    this.setState({ name: event.target.value });
+  }
+  handleCategoryChange(event: any) {
+    this.setState({ category: event.target.value });
+  }
+  handleCapacityChange(event: any) {
+    this.setState({ capacity: event.target.value });
+  }
+  handleLatitudeChange(event: any) {
+    this.setState({ lat: event.target.value });
+  }
+  handleLongitudeChange(event: any) {
+    this.setState({ lng: event.target.value });
   }
 
   handleSubmit(event: any) {
-    alert("Form Data: " + this.state.value);
+    alert(
+      `Form Data: ${this.state.name} - ${this.state.category} - ${this.state.lat}-${this.state.lng}`
+    );
     event.preventDefault();
   }
 
@@ -52,7 +90,7 @@ class Register extends React.Component<MyProps, MyState> {
             <Input
               type="text"
               placeholder="Name of Venue"
-              onChange={this.handleChange}
+              onChange={this.handleNameChange}
             />
             <br />
           </label>
@@ -60,7 +98,7 @@ class Register extends React.Component<MyProps, MyState> {
           <label>
             Venue Type:
             <br />
-            <Select>
+            <Select onChange={this.handleCategoryChange}>
               <option selected value="bar">
                 Bar
               </option>
@@ -74,15 +112,27 @@ class Register extends React.Component<MyProps, MyState> {
           <label>
             Venue Capacity (estimate):
             <br />
-            <Input type="number" placeholder="capacity" />
+            <Input
+              type="number"
+              placeholder="capacity"
+              onChange={this.handleCapacityChange}
+            />
           </label>
           <br />
           <label>
             Location (lat/lng):
             <br />
-            <Input type="number" placeholder="Latitude" />
+            <Input
+              type="number"
+              placeholder="Latitude"
+              onChange={this.handleLatitudeChange}
+            />
             <br />
-            <Input type="number" placeholder="Longitude" />
+            <Input
+              type="number"
+              placeholder="Longitude"
+              onChange={this.handleLongitudeChange}
+            />
             {/* <CoordinateInput */}
             {/* onChange={(value: any) => { */}
             {/* console.log(value); */}
