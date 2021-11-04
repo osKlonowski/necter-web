@@ -66,9 +66,7 @@ class Register extends React.Component<MyProps, MyState> {
   }
 
   handleSubmit(event: any) {
-    alert(
-      `Form Data: ${this.state.name} - ${this.state.category} - ${this.state.lat}-${this.state.lng}`
-    );
+    alert('Form Data: ' + this.state.name + this.state.category + this.state.lat + this.state.lng );
     event.preventDefault();
   }
 
