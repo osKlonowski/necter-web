@@ -25,6 +25,7 @@ type MyState = {
   latError: string;
   lngError: string;
 };
+
 class Register extends React.Component<MyProps, MyState> {
   constructor(props: MyProps) {
     super(props);
@@ -66,8 +67,14 @@ class Register extends React.Component<MyProps, MyState> {
   }
 
   handleSubmit(event: any) {
-    alert('Form Data: ' + this.state.name + this.state.category + this.state.lat + this.state.lng );
     event.preventDefault();
+    alert(
+      "Form Data: " +
+        this.state.name +
+        this.state.category +
+        this.state.lat +
+        this.state.lng
+    );
   }
 
   // <Input
@@ -82,6 +89,11 @@ class Register extends React.Component<MyProps, MyState> {
     return (
       <PageWrapper>
         <form onSubmit={this.handleSubmit}>
+          <label>
+            Venue Photo
+            <br />
+            <input type="image" alt="venue-photo" />
+          </label>
           <label>
             Name:
             <br />
@@ -121,13 +133,13 @@ class Register extends React.Component<MyProps, MyState> {
             Location (lat/lng):
             <br />
             <Input
-              type="number"
+              type="text"
               placeholder="Latitude"
               onChange={this.handleLatitudeChange}
             />
             <br />
             <Input
-              type="number"
+              type="text"
               placeholder="Longitude"
               onChange={this.handleLongitudeChange}
             />
