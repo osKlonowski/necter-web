@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const ImageViewer = styled.img`
-  width: 90px;
-  height: 90px;
+  width: 120px;
+  height: 120px;
   border-radius: 12px;
   object-fit: cover;
 `;
