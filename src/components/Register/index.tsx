@@ -14,6 +14,7 @@ import { Input, PageWrapper, Select, SubmitButton } from "./RegisterElements";
 
 type MyProps = {};
 type MyState = {
+  image: string;
   name: string;
   nameError: string;
   category: string;
@@ -30,6 +31,7 @@ class Register extends React.Component<MyProps, MyState> {
   constructor(props: MyProps) {
     super(props);
     this.state = {
+      image: "",
       name: "",
       nameError: "",
       category: "",
@@ -77,6 +79,26 @@ class Register extends React.Component<MyProps, MyState> {
     );
   }
 
+  onImageChange = (event: any) => {
+    if (event.target.files && event.target.files[0]) {
+      this.setState({
+        image: URL.createObjectURL(event.target.files[0]),
+      });
+    }
+  };
+
+  // onImageChange = (event: any) => {
+  // if (event.target.files && event.target.files[0]) {
+  // let reader = new FileReader();
+  // reader.onload = (e) => {
+  // if (e.target !== undefined) {
+  // this.setState({ image: e.target!.result });
+  // }
+  // };
+  // reader.readAsDataURL(event.target.files[0]);
+  // }
+  // };
+
   // <Input
   // id="1"
   // label="Name of Venue"
@@ -92,7 +114,8 @@ class Register extends React.Component<MyProps, MyState> {
           <label>
             Venue Photo
             <br />
-            <input type="image" alt="venue-photo" />
+            <img id="target" src={this.state.image} alt="venue-img" />
+            <input type="file" onChange={this.onImageChange} id="venue-image" />
           </label>
           <label>
             Name:
