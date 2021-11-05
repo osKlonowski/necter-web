@@ -121,8 +121,10 @@ class Register extends React.Component<MyProps, MyState> {
             Venue Photo
             <br />
             <ImageViewer id="target" src={this.state.image} alt="venue-img" />
+            <br />
             <input type="file" onChange={this.onImageChange} id="venue-image" />
           </label>
+          <br />
           <label>
             Name:
             <br />

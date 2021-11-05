@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const ImageViewer = styled.img`
-  width: 80px;
-  height: 80px;
-  border-radius: 50px;
+  width: 90px;
+  height: 90px;
+  border-radius: 12px;
+  object-fit: cover;
 `;
 
 export const PageWrapper = styled.div`
