@@ -1,5 +1,11 @@
 import styled from "styled-components";
 
+export const ImageViewer = styled.img`
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+`;
+
 export const PageWrapper = styled.div`
   color: #fff;
   background: #b4bced;

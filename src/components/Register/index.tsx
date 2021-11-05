@@ -1,5 +1,11 @@
 import React from "react";
-import { Input, PageWrapper, Select, SubmitButton } from "./RegisterElements";
+import {
+  ImageViewer,
+  Input,
+  PageWrapper,
+  Select,
+  SubmitButton,
+} from "./RegisterElements";
 // import Input from "../Input";
 // import CoordinateInput from "react-coordinate-input";
 
@@ -114,7 +120,7 @@ class Register extends React.Component<MyProps, MyState> {
           <label>
             Venue Photo
             <br />
-            <img id="target" src={this.state.image} alt="venue-img" />
+            <ImageViewer id="target" src={this.state.image} alt="venue-img" />
             <input type="file" onChange={this.onImageChange} id="venue-image" />
           </label>
           <label>
