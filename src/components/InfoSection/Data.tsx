@@ -3,10 +3,10 @@ export const homeObjOne = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "Necter - Offline Dating",
-  headline: "Your WingApp",
+  topLine: "Necter",
+  headline: "Just Meet!",
   description:
-    "Taking dating back into the real world. Spontaneously connect with people nearby. Necter is the easiest way to say hi.",
+    "Necter is a social networking/dating app for real getting-to-know stories. No swiping, no matches, no superficiality, just connect in the here and now.",
   buttonLable: "Get Started",
   imgStart: false,
   img: require("../../assets/mockup-double.png").default,
